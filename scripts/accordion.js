@@ -35,3 +35,5 @@
     accordion.addEventListener('keyup', enterOnAccordion);
   }
 })()
+
+// Script que desencadena el despliegue del contenido del apartado seleccionado.

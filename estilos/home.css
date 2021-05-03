@@ -69,7 +69,25 @@
   padding: 0px 10px;
 }
 
-@media(min-width: 900px) {
+.presentation-header {
+  font-weight: 900;
+  font-size: x-large;
+}
+
+.contact-footer {
+  font-style: italic;
+  color: var(--primary-color);
+}
+
+.contact-link {
+  font-weight: bolder;
+}
+
+.author-name {
+  text-align: center;
+}
+
+@media (min-width: 900px) {
   .main-body {
     flex-direction: row;
     justify-content: center;

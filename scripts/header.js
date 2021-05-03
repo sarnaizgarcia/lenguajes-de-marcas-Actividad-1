@@ -25,10 +25,12 @@
     }
   }
 
-  document.removeEventListener('click', closeMenu)
+  document.removeEventListener('click', closeMenu);
   document.addEventListener('click', closeMenu);
   menuButton.removeEventListener('click', clickOnMenu);
   menuButton.addEventListener('click', clickOnMenu);
   menuButton.removeEventListener('keyup', enterOnMenu);
   menuButton.addEventListener('keyup', enterOnMenu);
 })()
+
+// Con este script de JS desencadenamos el despliegue y el cierre del menú en versión móvil.
